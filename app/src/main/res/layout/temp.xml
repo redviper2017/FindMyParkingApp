@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_140sdp"
+            android:background="@drawable/temp_back">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#805b1842">
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="@dimen/_140sdp"
+                    android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.5"
+                            android:gravity="center|start">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/iv_image"
+                                    android:layout_width="@dimen/_60sdp"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="@dimen/_8sdp"
+                                    android:src="@drawable/holder_one"/>
+
+                                <TextView
+                                    android:id="@+id/tv_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="@dimen/_8sdp"
+                                    android:text="name"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_18sdp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tv_number"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_2sdp"
+                                    android:layout_marginLeft="@dimen/_8sdp"
+                                    android:text="Number"
+                                    android:textColor="@color/white"/>
+
+                                <TextView
+                                    android:id="@+id/tv_country"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/_8sdp"
+                                    android:layout_marginTop="@dimen/_2sdp"
+                                    android:text="Number"
+                                    android:textColor="@color/white"/>
+                        </LinearLayout>
+                </LinearLayout>
+        </RelativeLayout>
+
+</LinearLayout>

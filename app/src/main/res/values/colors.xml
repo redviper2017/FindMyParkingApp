@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7b1842</color>
+    <color name="colorPrimaryDark">#5b1842</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="colorName">#00BCD4</color>
+    <color name="black">#000</color>
+
+    <color name="main">#ec4141</color>
+    <color name="numpad">#212121</color>
+    <color name="numpadText">#FFFFFF</color>
+    <color name="orange">#FF5722</color>
+    <color name="red">#ff0000</color>
+    <color name="transperent">#00000000</color>
+    <color name="grey">#666666</color>
+
+    <color name="deep">#281332</color>
+    <color name="save_holder">#2F163D</color>
+    <color name="save_holder_buttons">#FE4C5B</color>
+    <color name="call_informer">#2196F3</color>
+
+
+</resources>

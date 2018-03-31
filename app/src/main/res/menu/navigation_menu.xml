@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_history"
+          android:icon="@drawable/ic_history_white_24dp"
+          android:title="History"/>
+    <item android:id="@+id/action_profile"
+          android:icon="@drawable/ic_person_person_24dp"
+          android:title="Profile"/>
+    <item android:id="@+id/action_places"
+          android:icon="@drawable/ic_place_white_24dp"
+          android:title="My Spots"/>
+    <item android:id="@+id/action_signout"
+          android:icon="@drawable/ic_power_settings_new_white_24dp"
+          android:title="Signout"/>
+</menu>

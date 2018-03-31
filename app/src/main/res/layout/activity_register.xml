@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:background="@color/bg_register"
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:padding="10dp" >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_gravity="center"
+                    android:id="@+id/iv_image"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/holder_one"/>
+
+                <EditText
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableLeft="@drawable/ic_email_black_24dp"
+                    android:id="@+id/email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:background="@drawable/edittext"
+                    android:singleLine="true"
+                    android:textColorHint="@color/input_register_hint"/>
+
+                <EditText
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableLeft="@drawable/ic_lock_black_24dp"
+                    android:background="@drawable/edittext"
+                    android:id="@+id/password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/input_register_hint"/>
+
+                <EditText
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittext"
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_name"
+                    android:inputType="textCapWords"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/input_register_hint"/>
+
+                <EditText
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableLeft="@drawable/ic_smartphone_black_24dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittext"
+                    android:id="@+id/et_phn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:textColorHint="@color/input_register_hint"
+                    android:singleLine="true"/>
+
+
+                <EditText
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableLeft="@drawable/ic_description_black_24dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittext"
+                    android:id="@+id/et_lic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="License No"
+                    android:inputType="textCapWords"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/input_register_hint"/>
+
+
+                <EditText
+                    android:drawablePadding="@dimen/_6sdp"
+                    android:drawableLeft="@drawable/ic_description_black_24dp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:background="@drawable/edittext"
+                    android:id="@+id/et_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Registration No"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/input_register_hint"/>
+
+                <!-- Login Button -->
+
+
+                    <Button
+                        android:id="@+id/btnRegister"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/btn_register"
+                        android:textColor="@color/white"/>
+                    <Button
+                        android:id="@+id/btnLinkToLoginScreen"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:text="Already have account"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+</layout>
